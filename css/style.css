@@ -4,7 +4,7 @@
   --secondary: #e93c05;
   --tertiary: #555555;
   --light: #dfe4fd;
-  --dark: #64c1cc;
+  --dark: #011a41;
 }
 
 .back-to-top {
@@ -21,7 +21,6 @@ h2,
 .h2,
 .fw-bold {
   font-weight: 700 !important;
-  color: #203897;
 }
 
 h3,
@@ -154,23 +153,25 @@ h6,
 
 /*** Header ***/
 .carousel-caption {
-  top: 150px;
-  left: 300px;
+  top: 0;
+  left: 0;
   right: 0;
-  bottom: 22px;
+  bottom: 0;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  text-align: center;
-  z-index: 18;
+  justify-content: center;
+  text-align: start;
+  z-index: 1;
 }
-.tagline-box {
-  background: rgba(255, 255, 255, 0.95); /* white with slight transparency */
-  padding: 20px 30px;
+.blur-box {
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
   border-radius: 12px;
-  display: inline-block; /* shrink box to text width */
-  color: #000; /* black text inside */
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* subtle shadow */
+  background: rgba(255, 255, 255, 0.084); /* semi-transparent */
+  backdrop-filter: blur(8px); /* blur effect */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  color: #011a41; /* text color */
 }
 
 .carousel-control-prev,
