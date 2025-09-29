@@ -2,7 +2,7 @@
 :root {
   --primary: #355efc;
   --secondary: #e93c05;
-  --tertiary: #555555;
+  --tertiary: #000000;
   --light: #dfe4fd;
   --dark: #011a41;
 }
@@ -106,12 +106,13 @@ h6,
   font-weight: 900;
   vertical-align: middle;
   margin-left: 8px;
+  color:black;
 }
 
 .navbar .navbar-nav .nav-link {
   padding: 25px 15px;
   color: var(--tertiary);
-  font-weight: 500;
+  font-weight:800;
   outline: none;
 }
 
@@ -171,7 +172,7 @@ h6,
   background: rgba(255, 255, 255, 0.084); /* semi-transparent */
   backdrop-filter: blur(5px); /* blur effect */
   -webkit-backdrop-filter: blur(8px); /* Safari support */
-  color: #050578; /* text color */
+  color: #1a0293; /* text color */
 }
 
 .carousel-control-prev,
