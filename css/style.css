@@ -172,7 +172,7 @@ h6,
   background: rgba(255, 255, 255, 0); /* semi-transparent */
   backdrop-filter: blur(5px); /* blur effect */
   -webkit-backdrop-filter: blur(8px); /* Safari support */
-  color: #050578; /* text color */
+  color: #1982ca; /* text color */
 }
 
 .carousel-control-prev,
